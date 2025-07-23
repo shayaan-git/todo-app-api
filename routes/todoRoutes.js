@@ -25,6 +25,17 @@ router.get('/', async(req,res) => {
         res.status(500).json({message: error.message}); // Respond with an error message if fetching fails
     }
 })
+// Get a Todo item by ID
+router.get('/:id', async(req, res) => {
+    try {
+        const todo = await Todo.findById(req.params.id); // Find the Todo item by ID
+        if (!todo) return res.status(404).json({message: 'Todo not found'}); // Respond with 404 if not found
+        
+        res.json(todo); // Respond with the found Todo item
+    } catch (error) {
+        res.status(500).json({message: error.message}); // Respond with an error message if fetching fails
+    }
+})
  
 // Update a Todo item
 router.put('/:id', async(req, res) => {
