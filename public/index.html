@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Todo App API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Welcome to ToDo App! 📝</h1>
+      <p>Use the following endpoints to interact with the Todo API:</p>
+      <ul>
+        <li>
+          <span class="endpoint get">GET</span>
+          <code>/todos</code>
+          <span class="description">- List all todos</span>
+        </li>
+        <li>
+          <span class="endpoint get">GET</span>
+          <code>/todos/:id</code>
+          <span class="description">- Get a todo by ID</span>
+        </li>
+        <li>
+          <span class="endpoint post">POST</span>
+          <code>/todos</code>
+          <span class="description">- Create a new todo (JSON body)</span>
+        </li>
+        <li>
+          <span class="endpoint put">PUT</span>
+          <code>/todos/:id</code>
+          <span class="description">- Update a todo by ID (JSON body)</span>
+        </li>
+        <li>
+          <span class="endpoint delete">DELETE</span>
+          <code>/todos/:id</code>
+          <span class="description">- Delete a todo by ID</span>
+        </li>
+      </ul>
+      <p><span style="color:yellowgreen">Try it out</span> with a tool like <a href="https://identity.getpostman.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fhome" target="_blank">Postman</a> or <a href="https://httpie.io/app" target="_blank">HTTPie</a>.</p>
+    </main>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 /* --- CSS Variables for Theming --- */
 :root {
-  --bg-color: #f4f7f9;
-  --font-color: #333;
+  --bg-color: #e7e9ea;
+  --font-color: #ffffff;
   --card-bg: #ffffff;
   --accent-color: #3498db;
   --code-bg: #eef2f5;
@@ -19,7 +19,7 @@
     --bg-color: #1a1a2e;
     --font-color: #e0e0e0;
     --card-bg: #16213e;
-    --accent-color: #0f3460;
+    --accent-color: #f6f8f9;
     --code-bg: #2a3a5e;
     --code-font-color: #c0c0c0;
     --shadow-color: rgba(0, 0, 0, 0.2);
