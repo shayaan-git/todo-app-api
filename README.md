@@ -26,3 +26,14 @@ Developed a TODO API App.
 - Clean routing system on backend
 
 ---
+## JSON model
+<details>
+  <summary><code>Dummy JSON Data</code></summary>
+  
+```json
+{
+  "title": "task_name",
+  "completed": "false"
+}
+```
+</details>
